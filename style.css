@@ -1,18 +1,22 @@
-* {
+/* I reset my CSS style because when browser renders a page it applies basic styles before you’ve even written a single style
+and this happens because each browser has its specific styles different from other browsers */
+*{
     margin: 0;
     padding: 0;
+    font-size: 100%;
+	font: inherit;
     box-sizing: border-box;
     vertical-align: baseline;
     font-family:'Arial, sans-serif';
 }
-
+/* To position my app at the center of the screen, I assign the following properties to the class "app" */
 .app {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
-
+/* styling the Calculator */
 .calculator {
     background-color: #22252D;
     display: flex;
@@ -23,7 +27,7 @@
     border-radius: 1.5rem;
     overflow: hidden;
 }
-
+/* styling where and how I display my input and output */
 .display {
     display: flex;
     justify-content: flex-end;
@@ -46,11 +50,21 @@
     max-width: 100%;
     overflow: auto;
 }
+/* Styling the elements in the display area which is executed by the CleanInput() function in my JS file */
+.display .operator {
+    color: #EB6666;
+}
+.display .brackets,
+.display .percent {
+    color: #26FED7;
+}
+
+/* Styling the keys in the calculator app */
 
 .keys {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(5, 1fr);
+    display: grid;  /* I made the keys a grid content so as to avoid using float or positioning */
+    grid-template-columns: repeat(4, 1fr); /* This positions all items in 4 columns with 1-fraction */
+    grid-template-rows: repeat(5, 1fr);  /* This positions all items in 5 columns with 1-fraction */
     grid-gap: 1rem;
     background-color: #292D36;
     width: 100%;
@@ -63,7 +77,7 @@
 .keys .key {
     padding-top: 100%;
     color: white;
-    position: relative;
+    position: relative;  /* Assigning relative position to the keys parent element because I'll needed  to position the span elements at it's center */
     border-radius: 1.25rem;
     display: block;
     cursor: pointer;
@@ -81,14 +95,8 @@
     color: #26FED7;
 }
 
-.display .operator {
-    color: #EB6666;
-}
-.display .brackets,
-.display .percent {
-    color: #26FED7;
-}
 
+/* these properties position each key at the center of its parent element */
 .keys .key span {
     position: absolute;
     top: 50%;
