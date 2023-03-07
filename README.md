@@ -22,12 +22,13 @@ If you do not find the video explanatory enough, no worries. I have comments in 
 
 **Resource:** [https://youtu.be/_x8mNUBhLSk]
 
-## License
 
-[MIT](https://choosealicense.com/licenses/mit/)
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://linkedin.com/in/festusasiyanbi" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="festusasiyanbi" height="30" width="40" /></a>
 <a href="https://instagram.com/festusasiyanbi" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="festusasiyanbi" height="30" width="40" /></a>
 </p>
 
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
