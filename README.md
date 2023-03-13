@@ -15,7 +15,8 @@ This project is essential for beginners (like me) as it includes usage of some s
 Cloning & Pull requests are welcome. For major changes, please open an issue first
 to discuss what you would like to change.
 
-## [Click to visit the live site](https://festus-calculator.netlify.app)
+## Link
+- [Click to visit the live site](https://festus-calculator.netlify.app)
 
 Please follow my profile, give me a star and share this project with friends and relatives that might need to see. Thank you! 😊
 **NB:** Kindly find attached the link to the project on YouTube.
