@@ -18,7 +18,8 @@ to discuss what you would like to change.
 ## Link
 - [Click to visit the live site](https://festus-calculator.netlify.app)
 
-Please follow my profile, give me a star and share this project with friends and relatives that might need to see. Thank you! 😊
+## Follow me!
+- Please check out my profiles, give me a star and share this project with friends and relatives that might need to see. Thank you! 😊
 **NB:** Kindly find attached the link to the project on YouTube.
 If you do not find the video explanatory enough, no worries. I have comments in each file that explain what virtually every line of code does in the project
 
